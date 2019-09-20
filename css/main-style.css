@@ -179,7 +179,7 @@ a{
 }
 
 .pp{
-  min-height: 600px;
+  min-height: 580px;
   max-width: 600px;
 }
 
@@ -193,4 +193,19 @@ a{
   1px 1px 0 white;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
+}
+
+.grid-left-incoming{
+  float:left;
+  padding-left: 30px;
+}
+
+.brief-desc{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+  text-align: center;
+  white-space: pre-wrap;      /* current browsers */
 }
