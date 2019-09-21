@@ -224,9 +224,18 @@ a{
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
 }
+.content-detailed-header{
+  background-color:#D68F59; 
+  max-height: 100px;
+  padding-left:400px;
+}
 .content-detailed{
   background-image: linear-gradient(#D68F59,#D68F59,#D68F59,#D68F59,#D68F59, rgb(83, 189, 124));
-  min-height: 1000px;
+  max-height: 1000px;
+  display: grid;
+  grid-template-columns: 400px 500px 400px;
+  grid-gap: 10px;
+  padding-left:70px;
 }
 .centered-mid-header{
   color:black;
@@ -242,6 +251,11 @@ a{
 .tiny-zombies-img{
   max-width: 400px;
   max-height: 400px;
+}
+.tiny-arms-header{
+  max-width: 491px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .grid-left-games{
@@ -260,7 +274,29 @@ a{
   border-radius: 4px;
   border: 2px solid black;
 }
+.grid-center-games{
+
+  margin-top:50px;
+  padding-top:20px;
+  background-color: rgba(255, 141, 55, 0);
+  border-radius: 8px;
+  border: 0px solid rgba(255, 255, 255, 0.459);
+  max-width: 500px;
+  max-height: 500px;
+}
 .above{
   margin-left:190px;
   margin-bottom:10px;
+}
+.tiny-zombies-img-left{
+  max-width: 400px;
+  max-height: 600px;
+  float:left;
+  margin-right:300px;
+}
+.tiny-zombies-img-right{
+  max-width: 400px;
+  max-height: 600px;
+  float:right;
+  padding-bottom:150px;
 }
