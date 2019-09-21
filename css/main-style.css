@@ -80,7 +80,7 @@ a:active {
 }
 .content{
   background-color:#D68F59;
-  min-height: 1000px;
+  min-height: 650px;
 }
 .header-overlay {
   width: 100vw;
@@ -208,4 +208,59 @@ a{
   white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
   text-align: center;
   white-space: pre-wrap;      /* current browsers */
+}
+
+.grid-center-incoming{
+  float:center;
+  padding-left: 520px;
+}
+.centered-header{
+  color:black;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+.content-detailed{
+  background-image: linear-gradient(#D68F59,#D68F59,#D68F59,#D68F59,#D68F59, rgb(83, 189, 124));
+  min-height: 1000px;
+}
+.centered-mid-header{
+  color:black;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  padding-left: 120px;
+}
+.tiny-zombies-img{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.grid-left-games{
+  float:left;
+  margin-left: 100px;
+  padding-top:20px;
+  background-color: rgba(145, 71, 14, 0.226);
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.grid-right-games{
+  float:right;
+  margin-right: 100px;
+  padding-top:20px;
+  background-color: rgba(145, 71, 14, 0.226);
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.above{
+  margin-left:190px;
+  margin-bottom:10px;
 }
