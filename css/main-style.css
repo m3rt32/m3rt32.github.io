@@ -401,3 +401,12 @@ a{
   background-color:black;
   min-height: 750px;
 }
+.playstore-badge{
+  background-image: url("../assets/img/playstore.png");
+}
+.download-grid{
+  max-height: 100px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-gap: 10px;
+}
