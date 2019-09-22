@@ -66,14 +66,14 @@ a:active {
 }
 
 .layer-bg {
-  background-image: url("../assets/img/layer_bg.png");
+  background-image: url("../assets/img/layer_bg.webp");
 }
 
 .layer-one {
-  background-image: url("../assets/img/image_0001.png");
+  background-image: url("../assets/img/image_0001.webp");
 }
 .layer-two {
-  background-image: url("../assets/img/image_0000.png");
+  background-image: url("../assets/img/image_0000.webp");
 }
 .layer-three {
   background-image: url("../assets/img/image_0003.webp");
@@ -381,12 +381,12 @@ a{
   padding-left:350px;
 }
 .content-detailed-four-still{
-  background-image: linear-gradient(#805ac5,#805ac5,#805ac5,#3d2963);
-  min-height: 750px;
+  background-color:#805ac5;
+  min-height: 350px;
 }
 .content-detailed-four-still-continue{
-  background-color:#3d2963;
-  min-height: 750px;
+  background-image: linear-gradient(#805ac5,#805ac5,#805ac5,#3d2963);
+  min-height: 350px;
 }
 .content-detailed-header-five{
   background-color: #3d2963;
@@ -398,7 +398,7 @@ a{
   min-height: 750px;
 }
 .content-detailed-five-still-continue{
-  background-color:black;
+  background-color:#3d2963;
   min-height: 750px;
 }
 .playstore-badge{
