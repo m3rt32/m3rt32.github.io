@@ -8,3 +8,20 @@ $(window).scroll(function() {
      layer.css('transform', translate);
     });
    });
+$('img').on('mouseover', function() {
+    var self = this,
+        i = 0,
+        images = $(this).data('mouseover').split(/\s+/);
+
+    (function nextImage() {
+        var next = images[i++ % images.length].split('#');
+        $(self).data('timeout', setTimeout(function() {
+            self.src = next[0];
+            nextImage();
+        }, next[1] || 200));
+    })();
+
+}).on('mouseout', function() {
+    clearTimeout($(this).data('timeout'));
+    this.src = $(this).attr('src');
+});
