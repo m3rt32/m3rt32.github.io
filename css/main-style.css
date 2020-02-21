@@ -241,7 +241,7 @@ a{
   font-size: 50px;
 }
 .content-detailed-header{
-  background-color:#D68F59; 
+  background-color:#92603a; 
   max-height: 100px;
   padding-left:400px;
 }
@@ -250,8 +250,22 @@ a{
   max-height: 100px;
   padding-left:400px;
 }
+.game-engine-content-detailed-header{
+  background-color:#D68F59; 
+  max-height: 100px;
+  padding-left:310px;
+}
+.game-engine-content-detailed{
+  display:grid;
+  background-image: linear-gradient(#D68F59,#D68F59,#D68F59,#D68F59,#D68F59, #92603a);
+  max-height: 1000px;
+  padding-left:180px;
+  grid-template-columns: 600px 600px;
+  grid-gap: 10px;
+
+}
 .content-detailed{
-  background-image: linear-gradient(#D68F59,#D68F59,#D68F59,#D68F59,#D68F59, rgb(83, 189, 124));
+  background-image: linear-gradient(#92603a,#92603a,#92603a,#92603a,#92603a, rgb(83, 189, 124));
   max-height: 1000px;
   display: grid;
   grid-template-columns: 400px 500px 400px;
@@ -268,6 +282,10 @@ a{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding-left: 120px;
+}
+.lava-screenshot-img{
+  max-width: 500px;
+  max-height: 600px;
 }
 .tiny-zombies-img{
   max-width: 400px;
